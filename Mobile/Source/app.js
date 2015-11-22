@@ -63,7 +63,8 @@ Ext.application({
         'product.ViewProduct',
         'product.DeleteProduct',
         'product.UpdateProduct',
-        'product.UpdateProductForm'
+        'product.UpdateProductForm',
+        'orderline.AddOrderline'
 
 
 

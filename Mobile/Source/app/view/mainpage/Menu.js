@@ -17,6 +17,8 @@
         //arrData.push({ text: 'Treatment', icon: 'icon-info', handler: '', isApp: '1', form: '_App.view.treatment.TreatmentMain' });
         arrData.push({ text: 'User', icon: 'icon-info', handler: '', isApp: '1', form: '_App.view.user.UserMain' });
         arrData.push({ text: 'Category', icon: 'icon-info', handler: '', isApp: '1', form: '_App.view.category.CategoryMain' });
+        arrData.push({ text: 'Product', icon: 'icon-info', handler: '', isApp: '1', form: '_App.view.product.ProductMain' });
+        arrData.push({ text: 'Order', icon: 'icon-info', handler: '', isApp: '1', form: '_App.view.orderline.OrderlineMain' });
         arrData.push({ text: 'Logout', icon: 'icon-info', handler: '', isApp: '1', form: '_App.view.login.Main' });
 
         /*arrData.push({ text: 'Operation', icon: 'icon-info' });

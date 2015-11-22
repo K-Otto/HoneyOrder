@@ -138,9 +138,11 @@
             if (result.data == undefined)
             {
                 var addUser = result = _App.myWebServiceGet(_App.baseURL + 'saveUser?username=admin&password=admin&firstName=admin&lastName=admin');
+                localStorage.setItem("loggedInUsername", username);
                 Ext.Viewport.setActiveItem(new _App.view.mainpage.Main());
             }
             else {
+                localStorage.setItem("loggedInUsername", username);
                 Ext.Viewport.setActiveItem(new _App.view.mainpage.Main());
             }        
         }
@@ -152,6 +154,7 @@
             }
             else
             {
+                localStorage.setItem("loggedInUsername", username);
                 Ext.Viewport.setActiveItem(new _App.view.mainpage.Main());
             }
         }
